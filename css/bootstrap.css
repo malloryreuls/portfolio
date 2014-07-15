@@ -5067,7 +5067,7 @@ body.modal-open,
 .modal-dialog {
   margin-left: auto;
   margin-right: auto;
-  width: auto;
+  width: 800px;
   padding: 10px;
   z-index: 1050;
 }
@@ -5113,7 +5113,7 @@ body.modal-open,
 }
 .modal-body {
   position: relative;
-  padding: 20px;
+  padding: 5px;
 }
 .modal-footer {
   margin-top: 15px;
