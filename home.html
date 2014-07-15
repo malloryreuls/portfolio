@@ -11,7 +11,6 @@
 	<link rel="icon" type="image/png" href="img/favicon.ico"/>
 	<link rel="stylesheet" href="css/bootstrap.css" />
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
-	
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/prettyPhoto.css" />
 
@@ -63,7 +62,7 @@
 					<figure class="round-outline"><img class="round-photo" src="assets/MGRuno-sm.png" alt=""></figure>
 				</div>
 				<h1>Mallory Reulman</h1>
-				<p style="color: #F03A4C;">Technical Product Manager</p>
+				<p style="color: #F03A4C;">Technical Product Manager | Full Stack Web Developer</p>
 					<a href="#about">
 						<i class="fa fa-chevron-down fa-2x pulsate-opacity"></i>
 					</a>
@@ -80,20 +79,23 @@
 	<div class="container cbp-so-side cbp-so-side-top">
 
 		<div class="row">
-			<div class="col-sm-2 col-sm-offset-1 scrollimation fade-right in">
-				<figure class="round-outline">
-					<a href="assets/photo-lg.jpg" class="round-photo-anchor" rel="prettyPhoto[about-gal]">
-						<img class="round-photo img-responsive" src="assets/photo-sm.jpg" alt="">
+			<div class="col-sm-4 scrollimation fade-right in">
+						<img class="round-outline round-photo-anchor round-photo img-responsive" style="height: 300px; width: 300px; border: 10px solid #e4e4e4;" src="assets/photo-md.jpg" rel="prettyPhoto[about-gal]" alt="">
 						<div class="round-caption-bg"></div>
-						<i class="fa fa-search fa-lg"></i>
 					</a>
-				</figure>
 			</div>
-			<div class="col-sm-8 col-sm-offset-1 scrollimation fade-left in">
+			<div class="col-sm-7 col-sm-offset-1 scrollimation fade-left in">
 				<h1 style="text-align: right;">About</h1>
 				<p style="text-align: justify;">Full Stack Developer and versatile Product Manager with experience building mobile app platforms, content management systems, social media and email marketing campaigns, as well as managing mobile advertising campaigns. Recent graduate from General Assembly, Web Development Immersive course, specializing in Ruby on Rails, JavaScript, AngularJS, HTML5, CSS3, PostgreSQL, and MongoDB. Brings accountability, positive energy, organization, and a tireless work ethic to any team.</p>
 
-				<a href="https://drive.google.com/file/d/0B3zIIpAtis6gcnhnNVlOUW5VWXM/edit?usp=sharing" class="btn btn-default btn-outline-pink btn-big" target="_blank" >View Resume</a>
+
+				<!-- Button trigger modal -->
+<button class="btn btn-default btn-outline-pink btn-lg" data-toggle="modal" data-target="#myModal">
+  View Resume
+</button>
+
+
+
 			</div>
 			
 		</div>
@@ -390,38 +392,32 @@
 
 <section class="jumbotron2" id="contact">
 <div class="container cbp-so-side cbp-so-side-top">
+		<br />
+		<br />
 		<h1>Get in touch</h1>
+		<hr/>
 		<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-2 col-md-offset-3">
 					<div class="icon">
 						<i class="fa fa-map-marker fa-2x"></i>
 					</div>
 					<p class="contact-meta">Santa Monica, CA</p>
+				</div>
+
+				<div class="col-md-2">
 					<div class="icon">
 						<i class="fa fa-envelope fa-2x"></i>
 					</div>
 					<p class="contact-meta"><a href="mailto:mreulman@gmail.com" style="color: white;" target="_blank">mreulman@gmail.com</a></p>
+				</div>
+				<div class="col-md-2">
 					<div class="icon">
 						<i class="fa fa-phone fa-2x"></i>
 					</div>
 					<p class="contact-meta">760.408.5302</p>
 				</div>
-				<div class="col-md-6 col-md-offset-2">
-					<form action="contact.php" method="post" role="form">
-						<div class="form-group">
-							<input type="text" class="form-control input-lg" id="nameinput" placeholder="Name" name="contact-name">
-						</div>
-						<div class="form-group">
-							<input type="email" class="form-control input-lg" id="emailinput" placeholder="Email" name="contact-email">
-						</div>
-						<div class="form-group">
-							<textarea class="form-control" placeholder="Hello Mallory..." rows="6" name="contact-message"></textarea>
-						</div>
-						<div class="form-group">
-							<button type="submit" class="btn btn-outline-white btn-big">Submit</button>
-						</div>
-					</form>
 			</div>
+			<hr />
 		</div>
 	</div>
 </section>
@@ -446,6 +442,24 @@
 
 <div class="scrolltotop">
 	<i class="fa fa-chevron-up"></i>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      </div>
+      <div class="modal-body" style="text-align: center;">
+        <img src="http://i.imgur.com/CeUb40J.png" style="width: 500px;"/>
+        <p><a href="https://drive.google.com/file/d/0B3zIIpAtis6gcnhnNVlOUW5VWXM/edit?usp=sharing" class="btn btn-default btn-outline-pink btn-big" target="_blank">Click here to view and download PDF version</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 
