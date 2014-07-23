@@ -512,6 +512,14 @@ a:hover {
   transition: all 0.2s ease-out;
   color: #fff;
 }
+
+@media (max-width: 600px) {
+  .profilepic {
+  height: 150px;
+  width: 150px;
+}
+}
+
 #about .round-outline .round-photo-anchor:hover .round-caption-bg {
   opacity: 0.8;
   top: 0;

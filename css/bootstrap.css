@@ -5067,11 +5067,14 @@ body.modal-open,
 .modal-dialog {
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: auto;
   padding: 10px;
   z-index: 1050;
 }
 .modal-content {
+  margin-top: 10%;
+  width: 100%; 
+  margin-left: -1%;
   position: relative;
   background-color: #ffffff;
   border: 1px solid #999999;
@@ -5081,6 +5084,13 @@ body.modal-open,
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: none;
+}
+@media (max-width: 600px) {
+  .modal-content {
+  margin-top: 10%;
+  width: 100%;
+  margin-left: -1%;
+}
 }
 .modal-backdrop {
   position: fixed;
