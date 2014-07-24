@@ -168,6 +168,7 @@
   				</button>
   			</li>
   			<li class="portfolio-mix col-md-3 web-dev">
+  				<button class="portfolio-item" data-toggle="modal" data-target="#myModal3">
   				<div class="portfolio-item">
   					<a target="_blank" href="http://multimediawikipedia.herokuapp.com/">
   						<img class="img-responsive" src="assets/mmw.png" alt="">
@@ -176,6 +177,7 @@
   						<p class="portfolio-item-description">Technologies:<br/>Ruby on Rails</br>JavaScript</br>Foundation<br/>Freebase API</br>Google Images API<br/>YouTube API</p>
   					</a>
   				</div>
+  			</button>
   			</li>
   			<li class="portfolio-mix col-md-3 product">
   				<div class="portfolio-item">
@@ -198,14 +200,16 @@
   				</div>
   			</li>
   			<li class="portfolio-mix col-md-3 web-dev">
+  				<button class="portfolio-item" data-toggle="modal" data-target="#myModal4">
   				<div class="portfolio-item">
   					<a target="_blank" href="http://fantasylife.herokuapp.com/">
   						<img class="img-responsive" src="assets/fantasylife.png" alt="">
   						<div class="caption-bg"></div>
   						<h3>Fantasy Life</h3>
-  						<p class="portfolio-item-description"><span style="font-weight: bold;">The first iteration of the world's most intense fantasy league app.</span><br/><br/> Technologies:</br>User Authentication<br/>Basic CRUD</br>Bootstrap</br>MongoDB</p>
+  						<p class="portfolio-item-description"> Technologies:</br>Ruby on Rails<br/>Bcrypt User Auth<br/>Paperclip / AWS</br>Bootstrap</br>MongoDB</p>
   					</a>
   				</div>
+  			</button>
   			</li>
   			<li class="portfolio-mix col-md-3 product">
   				<div class="portfolio-item">
@@ -248,6 +252,7 @@
   				</div>
   			</li>
   			<li class="portfolio-mix col-md-3 web-dev">
+  				<button class="portfolio-item" data-toggle="modal" data-target="#tictactoe">
   				<div class="portfolio-item">
   					<a target="_blank" href="https://malloryapp.firebaseapp.com/">
   						<img class="img-responsive" src="assets/tictac.png" alt="">
@@ -256,6 +261,7 @@
   						<p class="portfolio-item-description">Technologies:</br>Javascript</br>Angular.JS</br>HTML</br>CSS<br/>Firebase</p>
   					</a>
   				</div>
+  			</button>
   			</li>
   			<li class="portfolio-mix col-md-3 account">
   				<div class="portfolio-item">
@@ -441,15 +447,15 @@
 	<i class="fa fa-chevron-up"></i>
 </div>
 
-<!-- Modal -->
+<!-- Resume Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
-		<div class="modal-content">
+		<div class="modal-content" id="mobilemodal">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 			</div>
 			<div class="modal-body" style="text-align: center;">
-				<img src="assets/TPM_MalloryReulman-md.png" style="width: 98%;"/>
+				<img src="assets/TPM_MalloryReulman-md.png" id="modalimage"/>
 				<p><a href="https://drive.google.com/file/d/0B3zIIpAtis6gT3EtU2lTeE1sMEU/edit?usp=sharing" class="btn btn-default btn-outline-pink btn-big" target="_blank">Download PDF</a></p>
 			</div>
 			<div class="modal-footer">
@@ -459,7 +465,7 @@
 	</div>
 </div>
 
-<!-- Modal -->
+<!-- GeoInterest Modal -->
 <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
 		<div class="modal-content">
@@ -468,16 +474,96 @@
 			</div>
 			<div class="modal-body" style="text-align: center;">
 				<h3>GeoInterest</h3>
-				<a target="_blank" target="_blank" href="http://geointerest.herokuapp.com/"><img src="assets/geo_ss2.png" style="width: 98%;"/></a>
+				<a target="_blank" target="_blank" href="http://geointerest.herokuapp.com/"><img src="assets/geo_ss2.png" id="modalimage"/></a>
 				<div class="row" style="margin-top: 5%; margin-bottom: 5%;">
 					<div class="col-xs-8" style="text-align: left; margin-left: 2%;">
-						<p style="padding-right: 3%; border-right: 1px solid black;">GeoInterest is a location based interest finder. A user signs in to the app, subscribes to their favorite interest groups (i.e. rock climbing and dive bars) and is notified of cool places and related activities, based on their selections and current location.The app was originally designed for mobile, but is responsive across all devices.</p>
+						<p style="padding-right: 3%; border-right: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp; <b>GeoInterest</b> is a location based interest finder. A user signs in to the app, subscribes to their favorite interest groups (i.e. rock climbing and dive bars) and is notified of cool places and related activities, based on their selections and current location. <br/>The app was originally designed for mobile, but is responsive across all devices.</p>
 					</div>
 					<div class="col-xs-4" style="margin-left: -5%;">
 						<p><b>Technologies:</b><br/>Goolge Maps API<br/>Ruby on Rails<br/>JavaScript<br/>PostgreSQL<br/>JSON<br/>Bootstrap</br>HTML/CSS</p>
 					</div>
 				</div>
 				<p><a target="_blank" target="_blank" href="http://geointerest.herokuapp.com/" class="btn btn-default btn-outline-pink btn-big">Visit GeoInterest</a></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- MultimediaWikipedia Modal -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			</div>
+			<div class="modal-body" style="text-align: center;">
+				<h3>Multimedia Wikipedia</h3>
+				<a target="_blank" target="_blank" href="http://multimediawikipedia.herokuapp.com/"><img src="assets/askDMX.png" id="modalimage"/></a>
+				<div class="row" style="margin-top: 5%; margin-bottom: 5%;">
+					<div class="col-xs-8" style="text-align: left; margin-left: 2%;">
+						<p style="padding-right: 3%; border-right: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp; <b>Multimedia Wikipedia</b> (AskDMX) is a multimedia encyclopedia leveraging three API's: Freebase (for Wikipedia description), YouTube, and Google Images. Multimedia Wikipedia is a one-stop shop for learning more about any Wikipedia topic. MMW also has a <a href="http://multimediawikipedia.herokuapp.com/admins" target="_blank">custom analytics dashboard</a> that tracks the last ten searches that have been made in the app and most frequent searches that have been made over time. MMW's stand out feature is the full screen search bar, which is triggered by any key event.</p>
+					</div>
+					<div class="col-xs-4" style="margin-left: -5%;">
+						<p><b>Technologies:</b><br/>YouTube API<br/>Google Images API<br/>Freebase API<br/>Ruby on Rails<br/>JavaScript<br/>PostgreSQL<br/>JSON<br/>Foundation</br>HTML/CSS</p>
+					</div>
+				</div>
+				<p><a target="_blank" target="_blank" href="http://multimediawikipedia.herokuapp.com/" class="btn btn-default btn-outline-pink btn-big">Visit Multimedia Wikipedia</a></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Fantasy Life Modal -->
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			</div>
+			<div class="modal-body" style="text-align: center;">
+				<h3>Fantasy Life</h3>
+				<a target="_blank" target="_blank" href="http://fantasylife.herokuapp.com/"><img src="assets/fantasylifeSS.png" id="modalimage"/></a>
+				<div class="row" style="margin-top: 5%; margin-bottom: 5%;">
+					<div class="col-xs-8" style="text-align: left; margin-left: 2%;">
+						<p style="padding-right: 3%; border-right: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp; <b>Fantasy Life</b> is the first iteration of the world's most intense fantasy league app. As of right now it's a leaderboard that store's each user's selections. This was my first Rails CRUD app, as well as my first attempt at writing user authentication from scratch using Bcrypt.</p>
+					</div>
+					<div class="col-xs-4" style="margin-left: -5%;">
+						<p><b>Technologies:</b><br/>Ruby on Rails<br/>Bcrypt User Auth<br/>MongoDB<br/>Bootstrap</br>HTML/CSS</p>
+					</div>
+				</div>
+				<p><a target="_blank" target="_blank" href="http://fantasylife.herokuapp.com/" class="btn btn-default btn-outline-pink btn-big">Visit Fantasy Life</a></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Tic Tac Toe Modal -->
+<div class="modal fade" id="tictactoe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			</div>
+			<div class="modal-body" style="text-align: center;">
+				<h3>Tic Tac Toe</h3>
+				<a target="_blank" target="_blank" href="https://malloryapp.firebaseapp.com/"><img src="assets/tictacSS.png" id="modalimage"/></a>
+				<div class="row" style="margin-top: 5%; margin-bottom: 5%;">
+					<div class="col-xs-8" style="text-align: left; margin-left: 2%;">
+						<p style="padding-right: 3%; border-right: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp; <b>Tic Tac Toe</b> is a multiplayer app built with JavaScript and AngularJS. This was the first app I ever built from scratch! Tic tac toe will always have a special place in my heart.</p>
+					</div>
+					<div class="col-xs-4" style="margin-left: -5%;">
+						<p><b>Technologies:</b><br/>JavaScript<br/>AngularJS<br/>Firebase</br>HTML/CSS</p>
+					</div>
+				</div>
+				<p><a target="_blank" target="_blank" href="https://malloryapp.firebaseapp.com/" class="btn btn-default btn-outline-pink btn-big">Visit Tic Tac Toe</a></p>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

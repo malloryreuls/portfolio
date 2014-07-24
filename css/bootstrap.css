@@ -5073,8 +5073,8 @@ body.modal-open,
 }
 .modal-content {
   margin-top: 10%;
-  width: 100%; 
-  margin-left: -1%;
+  width: 125%; 
+  margin-left: -10%;
   position: relative;
   background-color: #ffffff;
   border: 1px solid #999999;
@@ -5087,7 +5087,7 @@ body.modal-open,
 }
 @media (max-width: 600px) {
   .modal-content {
-  margin-top: 10%;
+  margin-top: 18%;
   width: 100%;
   margin-left: -1%;
 }

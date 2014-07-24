@@ -129,6 +129,16 @@ a:hover {
   color: #fff;
   border: 2px solid #fff;
 }
+#modalimage {
+  width: 98%;
+}
+
+@media (max-width: 600px) {
+  #modalimage {
+    width: 100%;
+}
+}
+
 /* ----- CSS for scroll revealler ----- */
 .cbp-so-scroller {
   overflow: hidden;
