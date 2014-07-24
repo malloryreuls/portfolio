@@ -5087,8 +5087,6 @@ body.modal-open,
 }
 @media (max-width: 600px) {
   .modal-content {
-  position: relative;
-  margin-top: 18%;
   width: 100%;
   margin-left: -1%;
 }
