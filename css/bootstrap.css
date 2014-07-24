@@ -5074,7 +5074,7 @@ body.modal-open,
 .modal-content {
   margin-top: 10%;
   width: 820px; 
-  margin-left: -10%;
+  margin-left: -20%;
   position: relative;
   background-color: #ffffff;
   border: 1px solid #999999;
