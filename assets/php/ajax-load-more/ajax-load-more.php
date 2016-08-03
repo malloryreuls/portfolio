@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Vortex - AJAX Portfolio HTML Template</title>
+	<title>Mallory Reulman</title>
 
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="assets/images/favicon.png">
@@ -110,7 +110,7 @@
 				<div class="row">
 
 					<div class="col-sm-12 text-center">
-						<p class="copyright font-alt m-b-0">© 2015 Vortex, All Rights Reserved.</p>
+						<p class="copyright font-alt m-b-0">Mallory Reulman</p>
 					</div>
 
 				</div>
@@ -132,7 +132,7 @@
 
 				<div class="navbar-header">
 					<!-- YOU LOGO HERE -->
-					<a class="navbar-brand" href="index.html">
+					<a class="navbar-brand" href="home.html">
 						<!-- IMAGE OR SIMPLE TEXT -->
 						<img src="assets/images/logo-dark.png" width="95" alt="">
 					</a>
@@ -151,7 +151,7 @@
 				<!-- /ICONS NAVBAR -->
 
 				<ul class="extra-navbar nav navbar-nav navbar-right">
-					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="home.html" title="Home">Home</a></li>
 					<li><a href="about.html" title="About">About</a></li>
 					<li><a href="contact.html" title="Contact">Contact</a></li>
 				</ul>

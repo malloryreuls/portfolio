@@ -1401,7 +1401,7 @@ Modules
 }
 
 .navbar-custom + .module-small {
-	padding: 130px 0;
+	padding: 130px 0 70px 0;
 }
 
 .module-parallax {
