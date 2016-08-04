@@ -102,7 +102,7 @@ Typography
 ------------------------------------------------------------------- */
 
 a {
-	color: rgba(17, 17, 17, 0.55);
+	color: rgba(214,	64,	69, 0.55);
 }
 
 a:hover, a:focus {
@@ -124,8 +124,17 @@ a:hover, a:focus {
 	color: rgba(255, 255, 255, 0.7);
 }
 
+.text-dark {
+	color: rgba(30, 33, 39, 0.9);
+}
+
 .text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6,
 .text-light .h1, .text-light .h2, .text-light .h3, .text-light .h4, .text-light .h5, .text-light .h6 {
+	color: #fff;
+}
+
+.text-dark h1, .text-dark h2, .text-dark h3, .text-dark h4, .text-dark h5, .text-dark h6,
+.text-dark .h1, .text-dark .h2, .text-dark .h3, .text-dark .h4, .text-dark .h5, .text-dark .h6 {
 	color: #fff;
 }
 
@@ -180,7 +189,7 @@ blockquote.serif-quote {
 }
 
 .font-serif {
-	font-family: "Libre Baskerville", "Times New Roman", sans-serif;
+	font-family: "Libre Baskerville", sans-serif;
 	letter-spacing: 1px;
 	font-style: italic;
 }
