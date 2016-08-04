@@ -10,9 +10,6 @@
 
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="assets/images/favicon.png"/>
-	<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
 
 	<!-- Bootstrap core CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,185 +33,53 @@
 	<div class="page-loader">
 		<div class="loader">Loading...</div>
 	</div>
-	<!-- /PRELOADER -->
-
-	<!-- OVERLAY MENU -->
-	<div id="overlay-menu" class="overlay-menu">
-
-		<a href="#" id="overlay-menu-hide" class="navigation-hide"><i class="ion-close-round"></i></a>
-
-		<div class="overlay-menu-inner">
-			<nav class="overlay-menu-nav">
-
-				<ul id="nav">
-
-					<li class="slidedown">
-						<a href="#">Home</a>
-						<ul>
-							<li><a href="index.html">Light header</a></li>
-							<li><a href="index-2.html">Dark header</a></li>
-							<li><a href="index-3.html">Film overlay</a></li>
-							<li><a href="index-4.html">Image Slider</a></li>
-							<li><a href="index-5.html">Youtube Video</a></li>
-							<li><a href="index-6.html">Text rotator</a></li>
-							<li><a href="index-7.html">Agency</a></li>
-						</ul>
-					</li>
-
-					<li><a href="about.html">About</a></li>
-
-					<li class="slidedown">
-						<a href="#">Portfolio</a>
-						<ul>
-							<li><a href="portfolio-single-1.html">Single 1</a></li>
-							<li><a href="portfolio-single-2.html">Single 2</a></li>
-							<li><a href="portfolio-single-3.html">Single 3</a></li>
-							<li><a href="portfolio-single-4.html">Single 4</a></li>
-							<li><a href="portfolio-single-5.html">Single 5 </a></li>
-							<li><a href="portfolio-single-6.html">Single 6 with slider</a></li>
-						</ul>
-					</li>
-
-					<li class="slidedown">
-						<a href="#">News</a>
-						<ul>
-							<li><a href="blog-grid.html">3 column grid</a></li>
-							<li><a href="blog-grid-2.html">2 column grid</a></li>
-							<li><a href="blog-masonry.html">Blog Masonry</a></li>
-							<li><a href="blog-single.html">Single post</a></li>
-						</ul>
-					</li>
-
-					<li class="slidedown">
-						<a href="#">Features</a>
-						<ul>
-							<li><a href="components-1.html">Buttons, Content box, Progress bars</a></li>
-							<li><a href="components-2.html">Tab & Accordian</a></li>
-							<li><a href="components-3.html">Pricing tables</a></li>
-							<li><a href="components-4.html">Typography & Columns</a></li>
-							<li><a href="components-5.html">Modules & Overlays</a></li>
-						</ul>
-					</li>
-
-					<li><a href="contact.html">Contact</a></li>
-
-				</ul>
-
-			</nav>
-		</div>
-
-		<div class="overlay-navigation-footer">
-
-			<div class="container">
-
-				<div class="row">
-
-					<div class="col-sm-12 text-center">
-						<p class="copyright font-alt m-b-0">Mallory Reulman</p>
-					</div>
-
-				</div>
-
-			</div>
-
-		</div>
-
-	</div>
-	<!-- /OVERLAY MENU -->
 
 	<!-- WRAPPER -->
 	<div class="wrapper">
-
-		<!-- NAVIGATION -->
 		<nav class="navbar navbar-custom navbar-transparent navbar-light navbar-fixed-top">
-
 			<div class="container">
-
 				<div class="navbar-header">
-					<!-- YOU LOGO HERE -->
 					<a class="navbar-brand" href="home.html">
-						<!-- IMAGE OR SIMPLE TEXT -->
 						<img src="assets/images/logo-dark.png" width="95" alt="">
 					</a>
 				</div>
-
-				<!-- ICONS NAVBAR -->
-				<ul id="icons-navbar" class="nav navbar-nav navbar-right">
-					<li>
-						<a href="#" id="toggle-menu" class="show-overlay" title="Menu">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</a>
-					</li>
-				</ul>
-				<!-- /ICONS NAVBAR -->
 
 				<ul class="extra-navbar nav navbar-nav navbar-right">
 					<li><a href="home.html" title="Home">Home</a></li>
 					<li><a href="about.html" title="About">About</a></li>
 					<li><a href="contact.html" title="Contact">Contact</a></li>
 				</ul>
-
 			</div>
-
 		</nav>
-		<!-- /NAVIGATION -->
-
-		<!-- HERO -->
-		<section id="hero" class="module-hero module-parallax module-full-height bg-light-30" data-background="assets/images/section-4.jpg">
-
-			<!-- HERO TEXT -->
-			<div class="hero-caption">
-				<div class="hero-text">
-
-					<h1 class="mh-line-size-1 font-alt m-b-50">James Vortex</h1>
-					<h5 class="mh-line-size-4 font-alt">professional photographer</h5>
-
-				</div>
-			</div>
-			<!-- /HERO TEXT -->
-
-		</section>
-		<!-- /HERO -->
 
 		<!-- PORTFOLIO -->
 		<section id="portfolio" class="module">
-
 			<div class="container">
-
-				<!-- FILTER -->
 				<div class="row">
-
 					<div class="col-sm-12">
 						<ul id="filters" class="filters font-alt">
 							<li><a href="#" data-filter="*"class="current">All <sup><small>.355</small></sup></a></li>
-							<li><a href="#" data-filter=".branding">Branding <sup><small>.78</small></sup></a></li>
+							<li><a href="#" data-filter=".product">Product <sup><small>.78</small></sup></a></li>
 							<li><a href="#" data-filter=".design">Design <sup><small>.123</small></sup></a></li>
-							<li><a href="#" data-filter=".photo">Photo <sup><small>.144</small></sup></a></li>
-							<li><a href="#" data-filter=".web">Web <sup><small>.140</small></sup></a></li>
+							<li><a href="#" data-filter=".web">Web <sup><small>.144</small></sup></a></li>
+							<li><a href="#" data-filter=".mobile">Mobile <sup><small>.140</small></sup></a></li>
 						</ul>
 					</div>
-
 				</div>
-				<!-- /FILTER -->
 
 				<!-- WORKS GRID -->
 				<div class="row">
-
 					<div id="works-grid" class="works-grid works-hover-w">
-
 						<!-- DO NOT DELETE THIS DIV -->
 						<div class="grid-sizer"></div>
-
 						<!-- PORTFOLIO ITEM -->
-						<div class="work-item tall branding">
+						<div class="work-item tall product">
 							<a href="portfolio-single-1.html">
 								<img src="assets/images/portfolio/img-1.jpg" alt="">
 								<div class="work-caption font-alt">
 									<h3 class="work-title">The European languages</h3>
 									<div class="work-descr">
-										Branding
+										product
 									</div>
 								</div>
 							</a>
@@ -278,13 +143,13 @@
 						<!-- /PORTFOLIO ITEM -->
 
 						<!-- PORTFOLIO ITEM -->
-						<div class="work-item wide-tall branding photo web">
+						<div class="work-item wide-tall product mobile web">
 							<a href="portfolio-single-1.html">
 								<img src="assets/images/portfolio/img-6.jpg" alt="">
 								<div class="work-caption font-alt">
 									<h3 class="work-title">The grammar of the resulting language</h3>
 									<div class="work-descr">
-										Branding / Photo / Web
+										product / mobile / Web
 									</div>
 								</div>
 							</a>
@@ -292,13 +157,13 @@
 						<!-- /PORTFOLIO ITEM -->
 
 						<!-- PORTFOLIO ITEM -->
-						<div class="work-item wide design photo web">
+						<div class="work-item wide design mobile web">
 							<a href="portfolio-single-1.html">
 								<img src="assets/images/portfolio/img-7.jpg" alt="">
 								<div class="work-caption font-alt">
 									<h3 class="work-title">A collection of textile samples</h3>
 									<div class="work-descr">
-										Design / Photo / Web
+										Design / mobile / Web
 									</div>
 								</div>
 							</a>
@@ -306,13 +171,13 @@
 						<!-- /PORTFOLIO ITEM -->
 
 						<!-- PORTFOLIO ITEM -->
-						<div class="work-item branding photo">
+						<div class="work-item product mobile">
 							<a href="portfolio-single-1.html">
 								<img src="assets/images/portfolio/img-8.jpg" alt="">
 								<div class="work-caption font-alt">
 									<h3 class="work-title">Gregor then turned</h3>
 									<div class="work-descr">
-										Branding / Photo
+										product / mobile
 									</div>
 								</div>
 							</a>
@@ -320,13 +185,13 @@
 						<!-- /PORTFOLIO ITEM -->
 
 						<!-- PORTFOLIO ITEM -->
-						<div class="work-item branding photo">
+						<div class="work-item product mobile">
 							<a href="portfolio-single-1.html">
 								<img src="assets/images/portfolio/img-9.jpg" alt="">
 								<div class="work-caption font-alt">
 									<h3 class="work-title">He must have tried it</h3>
 									<div class="work-descr">
-										Branding / Photo
+										product / mobile
 									</div>
 								</div>
 							</a>
@@ -355,56 +220,28 @@
 				<!-- SHOW MORE -->
 				<div class="row m-t-70 text-center wow fadeInUp">
 					<div class="col-sm-12">
-
-						<button href="#" id="show-more" class="btn btn-block btn-lg btn-g show-more">More works</button>
-
+						<button href="#" id="show-more" class="btn btn-block btn-lg btn-g show-more">View More</button>
 					</div>
 				</div>
-				<!-- /SHOW MORE -->
-
 			</div>
-
 		</section>
-		<!-- /PORTFOLIO -->
 
 		<!-- FOOTER -->
+		<!-- FOOTER -->
 		<footer class="module bg-light">
-
 			<div class="container">
-
 				<div class="row">
-
 					<div class="col-sm-12">
-
 						<ul class="social-text-links font-alt text-center m-b-20">
-							<li><a href="#">Facebook</a></li>
-							<li><a href="#">Google plus</a></li>
-							<li><a href="#">Twitter</a></li>
-							<li><a href="#">Linkedin</a></li>
-							<li><a href="#">Dribbble</a></li>
+							<li><a href="https://www.linkedin.com/in/malloryreulman" target="_blank">LinkedIn</a></li>
+							<li><a href="https://twitter.com/malloryreuls" target="_blank">Twitter</a></li>
+							<li><a href="https://www.instagram.com/malloryreuls/" target="_blank">Instagram</a></li>
 						</ul>
-
 					</div>
-
 				</div>
-
-				<div class="row">
-
-					<div class="col-sm-12">
-
-						<p class="copyright text-center m-b-0">© 2015 <a href="#">Vortex</a>, All Rights Reserved.</p>
-
-					</div>
-
-				</div>
-
 			</div>
-
 		</footer>
-		<!-- /FOOTER -->
-
 	</div>
-	<!-- /WRAPPER -->
 
 	<!-- SCROLLTOP -->
 	<div class="scroll-up">
@@ -429,8 +266,6 @@
 	<script src="assets/js/jquery.fitvids.js"></script>
 	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
 	<script src="assets/js/smoothscroll.js"></script>
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="assets/js/gmaps.js"></script>
 	<script src="assets/js/contact.js"></script>
 	<script src="assets/js/custom.js"></script>
 
