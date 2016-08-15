@@ -1045,29 +1045,21 @@ Overlays
 }
 
 .bg-light-30:before {
-	background: rgba(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 0.7);
 	content: "";
 	left: 0;
 	top: 0;
 }
 
 .bg-light-60:before {
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.7);
 	content: "";
 	left: 0;
 	top: 0;
 }
 
 .bg-light-90:before {
-	background: rgba(255, 255, 255, 0.9);
-	content: "";
-	left: 0;
-	top: 0;
-}
-
-.bg-film:before {
-	background: url(../images/dot.gif);
-	opacity: 0.06;
+	background: rgba(255, 255, 255, 0.7);
 	content: "";
 	left: 0;
 	top: 0;
@@ -1423,7 +1415,7 @@ Modules
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	text-align: center;
-	font-size: 18px;
+	font-size: 24px;
 	margin-bottom: 70px;
 }
 

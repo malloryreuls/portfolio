@@ -45,9 +45,9 @@
 				</div>
 
 				<ul class="extra-navbar nav navbar-nav navbar-right">
-					<li><a href="home.html" title="Home">Home</a></li>
+					<li><a href="home.html" title="Portfolio">Portfolio</a></li>
 					<li><a href="about.html" title="About">About</a></li>
-					<li><a href="contact.html" title="Contact">Contact</a></li>
+					
 				</ul>
 			</div>
 		</nav>
@@ -265,7 +265,7 @@
 	<script src="assets/js/jqBootstrapValidation.js"></script>
 	<script src="assets/js/jquery.fitvids.js"></script>
 	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
-	<script src="assets/js/smoothscroll.js"></script>
+	
 	<script src="assets/js/contact.js"></script>
 	<script src="assets/js/custom.js"></script>
 
