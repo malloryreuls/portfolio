@@ -358,44 +358,6 @@ Buttons
 }
 
 /* ------------------------------------------------------------------
-Progress bars
-------------------------------------------------------------------- */
-
-.progress {
-	overflow: visible;
-	height: 4px;
-}
-
-.progress-title {
-	margin-top: 0;
-}
-
-.progress-bar {
-	position: relative;
-	-webkit-border-radius: 4px;
-	   -moz-border-radius: 4px;
-	    -ms-border-radius: 4px;
-	     -o-border-radius: 4px;
-	        border-radius: 4px;
-}
-
-.progress-bar.pb-dark {
-	background: #111;
-}
-
-.progress-bar span {
-	position: absolute;
-	padding: 4px 0px;
-	display: block;
-	top: -28px;
-	right: 0;
-	opacity: 0;
-	line-height: 12px;
-	font-size: 12px;
-	color: #777;
-}
-
-/* ------------------------------------------------------------------
 Tabs and Accordion
 ------------------------------------------------------------------- */
 
@@ -1042,6 +1004,16 @@ Navigation
 	background: rgba(17, 17, 17, 0.7);
 }
 
+@media (max-width: 500px) {
+
+	.navbar-transparent.navbar-light {
+		background: rgba(255, 255, 255, 0.95);
+		webkit-box-shadow: none;
+		  -moz-box-shadow: none;
+		       box-shadow: none;
+	}
+}
+
 /* ------------------------------------------------------------------
 Hero
 ------------------------------------------------------------------- */
@@ -1122,6 +1094,42 @@ Hero
 	opacity: 0.6;
 }
 
+@media (max-width: 500px) {
+
+	/* Hero captions */
+
+	.mh-line-size-1 {
+		letter-spacing: 12px;
+		font-size: 26px;
+	}
+
+	.mh-line-size-2 {
+		letter-spacing: 6px;
+		font-size: 14px;
+	}
+
+	.mh-line-size-3 {
+		letter-spacing: 4px;
+		font-size: 13px;
+	}
+
+	.mh-line-size-4 {
+		letter-spacing: 4px;
+		font-size: 12px;
+	}
+
+	.mh-line-size-5 {
+		letter-spacing: 2px;
+		font-size: 11px;
+	}
+
+	.mh-line-size-6 {
+		font-size: 12px;
+	}
+
+}
+
+
 /* ------------------------------------------------------------------
 Modules
 ------------------------------------------------------------------- */
@@ -1133,8 +1141,7 @@ Modules
 	width: 100%;
 }
 
-.module,
-.module-small {
+.module {
 	padding: 140px 0;
 	position: relative;
 	background-repeat: no-repeat;
@@ -1145,8 +1152,10 @@ Modules
 	        background-size: cover;
 }
 
-.module-small {
-	padding: 70px 0;
+@media (max-width: 500px) {
+	.module {
+		padding: 70px 0;
+	}
 }
 
 .navbar-custom + .module {
@@ -1171,6 +1180,12 @@ Modules
 	margin-bottom: 70px;
 }
 
+@media (max-width: 500px) {
+	.module-title {
+		margin-bottom: 35px;
+	}
+}
+
 .module-subtitle {
 	text-align: center;
 	margin-bottom: 70px;
@@ -1182,7 +1197,8 @@ Modules
 }
 
 .module-title + .module-subtitle {
-	margin-top: -35px;
+	margin-top: 15px;
+	margin-bottom: 30px;
 }
 
 .divider {
@@ -1214,6 +1230,22 @@ Works grid
 
 .show-more {
 	font-size: 11px !important;
+}
+
+@media (max-width: 500px ) {
+
+	/* Portfolio grid */
+
+	.work-item,
+	.grid-sizer {
+		width: 100%;
+	}
+
+	.work-item.wide,
+	.work-item.wide-tall {
+		width: 100%;
+	}
+
 }
 
 /* ------------------------------------------------------------------
@@ -1516,40 +1548,6 @@ Preloader
 
 }
 
-/* -------------------------------------------------------------------
-Scroll to top
-------------------------------------------------------------------- */
-
-.scroll-up {
-	position: fixed;
-	display: none;
-	bottom: 7px;
-	right: 7px;
-	z-index: 999;
-}
-
-.scroll-up a {
-	background: #fff;
-	display: block;
-	height: 28px;
-	width: 28px;
-	text-align: center;
-	line-height: 28px;
-	font-size: 14px;
-	color: #000;
-	opacity: 0.6;
-	-webkit-border-radius: 2px;
-	   -moz-border-radius: 2px;
-		 -o-border-radius: 2px;
-			border-radius: 2px;
-}
-
-.scroll-up a:hover,
-.scroll-up a:active {
-	opacity: 1;
-	color: #000;
-}
-
 /* ------------------------------------------------------------------
 Reset bootstrap navigation styles for small screens
 ------------------------------------------------------------------- */
@@ -1578,57 +1576,6 @@ Reset bootstrap navigation styles for small screens
 .navbar-custom .navbar-nav > li > a {
 	padding-top: 15px;
 	padding-bottom: 15px;
-}
-
-/* -------------------------------------------------------------------
-Responsive Media Querries
-------------------------------------------------------------------- */
-
-@media (max-width: 500px) {
-
-	/* Hero captions */
-
-	.mh-line-size-1 {
-		letter-spacing: 12px;
-		font-size: 26px;
-	}
-
-	.mh-line-size-2 {
-		letter-spacing: 6px;
-		font-size: 14px;
-	}
-
-	.mh-line-size-3 {
-		letter-spacing: 4px;
-		font-size: 13px;
-	}
-
-	.mh-line-size-4 {
-		letter-spacing: 4px;
-		font-size: 12px;
-	}
-
-	.mh-line-size-5 {
-		letter-spacing: 2px;
-		font-size: 11px;
-	}
-
-	.mh-line-size-6 {
-		font-size: 12px;
-	}
-
-	/* Portfolio grid */
-
-	.work-item,
-	.grid-sizer {
-		width: 100%;
-	}
-
-	.work-item.wide,
-	.work-item.wide-tall {
-		width: 100%;
-	}
-
 }
 
 /* -------------------------------------------------------------------
